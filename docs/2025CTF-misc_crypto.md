@@ -82,28 +82,28 @@
 
 常见的熟记，不常见的遇到了可以通过脚本和工具识别解码
 
-#### <font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">ASCII</font>
-<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">ASCII 码是对</font>**<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">英语字符与二进制位之间</font>**<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">的关系，做了统一规定。</font>
+#### ASCII
+ASCII 码是对**英语字符与二进制位之间**的关系，做了统一规定。
 
-<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">ASCII 字符集共有 128 个字符，其中有 96 个可打印字符，包括常用的字母、数字、标点符号</font>
+ASCII 字符集共有 128 个字符，其中有 96 个可打印字符，包括常用的字母、数字、标点符号
 
-**<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">例如：</font>**
+**例如：**
 
-<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">数字0为48(二进制：00110000)</font>
+数字0为48(二进制：00110000)
 
-<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">大写字母A为65（二进制：01000001）</font>
+大写字母A为65（二进制：01000001）
 
-<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">另外还有32个控制字符（不能打印出来）</font>
+另外还有32个控制字符（不能打印出来）
 
-<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">这128个符号，只占用了一个字节的后面7位，最前面的一位统一规定为0。</font>
+这128个符号，只占用了一个字节的后面7位，最前面的一位统一规定为0。
 
-<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);"></font>**<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">特征：</font>**<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);"> </font>**<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">只含有数字</font>**
+**特征：只含有数字**
 
-+ <font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">0-9, 49-57</font>
-+ <font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">A-Z, 65-90</font>
-+ <font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">a-z, 97-122</font>
++ 0-9, 49-57
++ A-Z, 65-90
++ a-z, 97-122
 
-**<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">举例：</font>**
+**举例：**
 
 > 明文：flag  
 > 十六进制：66 6c 61 67  
@@ -112,23 +112,23 @@
 > 二进制：1100110 1101100 1100001 1100111
 >
 
-#### <font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">unicode</font>
+#### unicode
 > flag: \u0066\u006c\u0061\u0067
 >
 
-#### <font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">url</font>
+#### url
 > flag %66%6c%61%67****
 >
 
-#### <font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">摩斯电码</font>
+#### 摩斯电码
 > flag  ..-. .-.. .- --.
 >
 
-#### <font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">HEX</font>
+#### HEX
 > flag 666c6167
 >
 
-#### <font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">tap code</font>
+#### tap code
 > flag 21311122
 >
 
@@ -187,17 +187,17 @@
 #### ......
 
 ### md5
-<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">MD5值是由32位由数字“0-9”和字母“a-f”所组成的字符串，字母大小写统一</font>
+MD5值是由32位由数字“0-9”和字母“a-f”所组成的字符串，字母大小写统一
 
-<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">16位值是取的是8~24位。</font>
+16位值是取的是8~24位。
 
-<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);"></font>**<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">特征：</font>**
+**特征：**
 
-<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">有固定长度，一般是32位或者16位</font>
+有固定长度，一般是32位或者16位
 
-<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">由数字“0-9”和字母“a-f”组成</font>
+由数字“0-9”和字母“a-f”组成
 
-**<font style="color:rgb(35, 38, 59);background-color:rgba(255, 255, 255, 0.9);">举例：</font>**
+**举例：**
 
 > 明文：flag  
 > md5(32) = 327a6c4304ad5938eaf0efb6cc3e53dc  
@@ -409,9 +409,9 @@ strings  "${1}" | grep "-E" "${CHARKEY}"
 
 stegpy：
 
-> <font style="color:rgb(22, 18, 9);">安装：</font>
+> 安装：
 >
-> <font style="color:rgb(22, 18, 9);">pip3 install stegpy</font>
+> pip3 install stegpy
 >
 
 > 使用：需要密码
@@ -419,15 +419,15 @@ stegpy：
 > stegpy 1.png -p 
 >
 
-<font style="color:rgb(36, 41, 47);background-color:#FFFFFF;">Image Steganography：</font>
+Image Steganography：
 
-<font style="color:rgb(36, 41, 47);background-color:#FFFFFF;">使用Image Steganography decrypt</font>
+使用Image Steganography decrypt
 
 npiet编程语言：
 
 [https://www.bertnase.de/npiet/npiet-execute.php](https://www.bertnase.de/npiet/npiet-execute.php)
 
-<font style="color:rgb(85, 85, 85);">将信息隐写在图片</font>
+将信息隐写在图片
 
 [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
 
@@ -439,9 +439,9 @@ npiet编程语言：
 
 工具站：[https://tools.jb51.net/aideddesign/img_add_info](https://tools.jb51.net/aideddesign/img_add_info)
 
-DeEgger Embedder隐写 <font style="color:rgb(22, 18, 9);">DeEgger Embedder工具</font>
+DeEgger Embedder隐写 DeEgger Embedder工具
 
-<font style="color:rgb(22, 18, 9);">把小说藏进图片 可以参考</font>[https://www.bilibili.com/video/BV1Ai4y1V7rg/?spm_id_from=333.999.0.0&vd_source=31399c09aa0c93655468bde7b13fcc03](https://www.bilibili.com/video/BV1Ai4y1V7rg/?spm_id_from=333.999.0.0&vd_source=31399c09aa0c93655468bde7b13fcc03)
+把小说藏进图片 可以参考[https://www.bilibili.com/video/BV1Ai4y1V7rg/?spm_id_from=333.999.0.0&vd_source=31399c09aa0c93655468bde7b13fcc03](https://www.bilibili.com/video/BV1Ai4y1V7rg/?spm_id_from=333.999.0.0&vd_source=31399c09aa0c93655468bde7b13fcc03)
 
 Arnold猫脸变换：
 
@@ -685,9 +685,9 @@ pngcheck file
 ```
 
 #### jpg
-**<font style="color:rgb(22, 18, 9);">OurSecret隐写：</font>**
+**OurSecret隐写：**
 
-**<font style="color:rgb(22, 18, 9);">特征明显，有如下数据</font>**
+**特征明显，有如下数据**
 
 ```shell
 9E 97 BA 2A 00 80 88 C9 A3 70 97 5B A2 E4 99 B8
@@ -714,11 +714,11 @@ stegdetect.exe -t jopi -s 10.0 1.jpg
 steghide extract -sf filename -p passwd
 ```
 
-**<font style="color:rgb(44, 63, 81);">JPHS：</font>**
+**JPHS：**
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/46821499/1750231214798-d09b16fc-f243-48c2-aa00-529fd548a942.png)
 
-**<font style="color:rgb(85, 85, 85);">outguess：</font>**
+**outguess：**
 
 ```bash
 outguess -k "pass" -r 1.jpg flag.txt
@@ -726,9 +726,9 @@ outguess -k "pass" -r 1.jpg flag.txt
 #flag.txt 保存位置
 ```
 
-**<font style="color:rgb(85, 85, 85);">pixeljihad：</font>**
+**pixeljihad：**
 
-**<font style="color:rgb(85, 85, 85);">在线：</font>**[**https://sekao.net/pixeljihad/**](https://sekao.net/pixeljihad/)
+**在线：**[**https://sekao.net/pixeljihad/**](https://sekao.net/pixeljihad/)
 
 **F5-steganography:**
 
@@ -754,9 +754,9 @@ java Extract 1.jpg
 
 bmp文件头去掉
 
-**<font style="color:rgb(36, 41, 47);background-color:#FFFFFF;">silenteye：同上面的jpg</font>**
+**silenteye：同上面的jpg**
 
-**<font style="color:rgb(36, 41, 47);background-color:#FFFFFF;">wbStego4open: 同上</font>**
+**wbStego4open: 同上**
 
 #### gif
 **gif分离：**
@@ -777,11 +777,11 @@ identify -format "%s %T \n" flag.gif
 [https://www.123912.com/s/f2HzTd-ZhL03](https://www.123912.com/s/f2HzTd-ZhL03)提取码:LCtD
 
 #### wav
-**<font style="color:rgb(36, 41, 47);">silenteye:</font>**
+**silenteye:**
 
-<font style="color:rgb(36, 41, 47);">可能是silenteye隐写,使用如同jpg，有密匙使用密匙解</font>
+可能是silenteye隐写,使用如同jpg，有密匙使用密匙解
 
-**<font style="color:rgb(36, 41, 47);">deepsound：</font>**
+**deepsound：**
 
 使用deepsound 打开，如果需要密码说明就是 deepsound 隐写，有密钥直接填入密钥解密即可
 
@@ -804,30 +804,30 @@ identify -format "%s %T \n" flag.gif
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/46821499/1752725113336-51e85718-bce8-45c3-8c4e-38b9775ca8e3.png)
 
-**<font style="color:rgb(22, 18, 9);">电话音分析(DTMF)：</font>**
+**电话音分析(DTMF)：**
 
-<font style="color:rgb(22, 18, 9);">使用工具：dtmf2num.exe</font>
+使用工具：dtmf2num.exe
 
-<font style="color:rgb(22, 18, 9);">用法：dtmf2num.exe xxx.wav</font>
+用法：dtmf2num.exe xxx.wav
 
-**<font style="color:rgb(22, 18, 9);">Audacity：</font>**
+**Audacity：**
 
-<font style="color:rgb(22, 18, 9);">使用Audacity.exe打开查看是否有字符串等信息</font>
+使用Audacity.exe打开查看是否有字符串等信息
 
-**<font style="color:rgb(22, 18, 9);">steghide：</font>**
+**steghide：**
 
-<font style="color:rgb(22, 18, 9);">也可能是steghide</font>
+也可能是steghide
 
-<font style="color:rgb(22, 18, 9);">用法：</font>
+用法：
 
 ```bash
 steghide extract -sf filename -p passwd
 ```
 
 #### mp3
-**<font style="color:rgb(22, 18, 9);">mp3stego：</font>**
+**mp3stego：**
 
-<font style="color:rgb(22, 18, 9);">工具地址：</font>[https://www.petitcolas.net/steganography/mp3stego/](https://www.petitcolas.net/steganography/mp3stego/)
+工具地址：[https://www.petitcolas.net/steganography/mp3stego/](https://www.petitcolas.net/steganography/mp3stego/)
 
 用法：
 
@@ -844,9 +844,9 @@ steghide extract -sf filename -p passwd
 stegpy 1.wav -p
 ```
 
-**<font style="color:rgb(22, 18, 9);">DeEgger Embedder：</font>**
+**DeEgger Embedder：**
 
-<font style="color:rgb(22, 18, 9);">地址：</font>[https://www.softpedia.com/get/Security/Encrypting/DeEgger-Embedder.shtml](https://www.softpedia.com/get/Security/Encrypting/DeEgger-Embedder.shtml)
+地址：[https://www.softpedia.com/get/Security/Encrypting/DeEgger-Embedder.shtml](https://www.softpedia.com/get/Security/Encrypting/DeEgger-Embedder.shtml)
 
 ### 文档类隐写
 
@@ -855,13 +855,13 @@ stegpy 1.wav -p
 
 使用binwalk 或者 foremost
 
-**<font style="color:rgb(36, 41, 47);">wbStego4open:</font>**
+**wbStego4open:**
 
-<font style="color:rgb(22, 18, 9);">使用</font><font style="color:rgb(36, 41, 47);">wbStego4open</font><font style="color:rgb(22, 18, 9);">带密钥</font>
+使用wbStego4open带密钥
 
-**<font style="color:rgb(22, 18, 9);">有密码：</font>**
+**有密码：**
 
-<font style="color:rgb(22, 18, 9);">使用pdfcrack爆破密码（Ubuntu: apt install pdfcrack）</font>
+使用pdfcrack爆破密码（Ubuntu: apt install pdfcrack）
 
 ```bash
 pdfcrack -f enc.pdf -w rockyou.txt
@@ -872,17 +872,17 @@ pdfcrack -f enc.pdf -w rockyou.txt
 
 使用binwalk分离附加的文件
 
-利用行距隐写将行距的不用转化为01解摩斯密码（如：<font style="color:rgb(22, 18, 9);">ISCC2023-汤姆历险记 </font>）
+利用行距隐写将行距的不用转化为01解摩斯密码（如：ISCC2023-汤姆历险记 ）
 
 #### ppt
 最常见的binwalk分离
 
 #### excel
-<font style="color:rgb(22, 18, 9);">使用记事本打开查找flag</font>
+使用记事本打开查找flag
 
-<font style="color:rgb(22, 18, 9);">查看单元格的不同，将不同的格分别转化为黑白格组成二维码</font>
+查看单元格的不同，将不同的格分别转化为黑白格组成二维码
 
-<font style="color:rgb(22, 18, 9);">binwalk</font>
+binwalk
 
 #### ......
 
@@ -907,15 +907,15 @@ pdfcrack -f enc.pdf -w rockyou.txt
 ![](https://cdn.nlark.com/yuque/0/2025/png/46821499/1752726579560-89fc51c7-029d-43cd-acce-214b48528f67.png)
 
 #### ......
-**<font style="color:rgb(22, 18, 9);">snow隐写：</font>**
+**snow隐写：**
 
-<font style="color:rgb(22, 18, 9);">SNOW.EXE -C -p password flag.txt </font>
+SNOW.EXE -C -p password flag.txt 
 
-**<font style="color:rgb(22, 18, 9);">垃圾邮件隐写(spammimic)：</font>**
+**垃圾邮件隐写(spammimic)：**
 
-<font style="color:rgb(22, 18, 9);">使用在线网站解密：</font>
+使用在线网站解密：
 
-[<font style="color:rgb(35, 118, 183);">https://www.spammimic.com/</font>](https://www.spammimic.com/)
+[https://www.spammimic.com/](https://www.spammimic.com/)
 
 **文字隐写：**
 
@@ -979,18 +979,18 @@ ZIP文件结构与伪加密原理
 
 要求：
 
-<font style="color:rgb(51, 51, 51);">至少已知明文的12个字节及偏移，其中至少8字节需要连续。</font>
+至少已知明文的12个字节及偏移，其中至少8字节需要连续。
 
-<font style="color:rgb(51, 51, 51);">明文对应的文件加密方式为ZipCrypto Store</font>
+明文对应的文件加密方式为ZipCrypto Store
 
-**<font style="color:rgb(51, 51, 51);">bkcrack:</font>**
+**bkcrack:**
 
 [https://github.com/kimci86/bkcrack](https://github.com/kimci86/bkcrack)
 
 ### crc爆破
-<font style="color:rgb(22, 18, 9);">压缩包中文件比较小只有几字节</font>
+压缩包中文件比较小只有几字节
 
-<font style="color:rgb(22, 18, 9);">工具：</font>
+工具：
 
 [https://github.com/AabyssZG/CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools)
 
@@ -1007,7 +1007,7 @@ ZIP文件结构与伪加密原理
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/46821499/1753933177946-d2a90513-cc04-4aa2-be1f-53606026646e.png)
 
-<font style="color:rgb(32, 33, 34);">对极大整数做</font>[<font style="color:rgb(51, 102, 204);">因数分解</font>](https://zh.wikipedia.org/wiki/%E5%9B%A0%E6%95%B0%E5%88%86%E8%A7%A3)<font style="color:rgb(32, 33, 34);">的难度决定了 RSA 算法的可靠性。换言之，对一极大整数做因数分解愈困难，RSA 算法愈可靠。假如有人找到一种快速因数分解的算法的话，那么用 RSA 加密的信息的可靠性就会极度下降。但找到这样的算法的可能性是非常小的。今天只有短的 RSA 钥匙才可能被强力方式破解。到2020年为止，世界上还没有任何可靠的攻击RSA算法的方式。只要其钥匙的长度足够长，用RSA加密的信息实际上是不能被破解的。</font>
+对极大整数做[因数分解](https://zh.wikipedia.org/wiki/%E5%9B%A0%E6%95%B0%E5%88%86%E8%A7%A3)的难度决定了 RSA 算法的可靠性。换言之，对一极大整数做因数分解愈困难，RSA 算法愈可靠。假如有人找到一种快速因数分解的算法的话，那么用 RSA 加密的信息的可靠性就会极度下降。但找到这样的算法的可能性是非常小的。今天只有短的 RSA 钥匙才可能被强力方式破解。到2020年为止，世界上还没有任何可靠的攻击RSA算法的方式。只要其钥匙的长度足够长，用RSA加密的信息实际上是不能被破解的。
 
 维基百科：
 
@@ -1089,16 +1089,16 @@ gmpy2
 
 ### 常见攻击方式
 
-#### <font style="color:rgb(0, 0, 0);">小明文攻击</font>
+#### 小明文攻击
 当题目中N特别大的时候可以尝试
 
-我们已知 Ⅰ:  C  <font style="color:rgb(0, 0, 0);">≡</font>![image](https://cdn.nlark.com/yuque/__latex/cc221ed71b2d6a5f6487c0d93be71c3d.svg)<font style="color:rgb(0, 0, 0);">(mod N)</font>
+我们已知 Ⅰ:  C  ≡![image](https://cdn.nlark.com/yuque/__latex/cc221ed71b2d6a5f6487c0d93be71c3d.svg)(mod N)
 
-<font style="color:rgb(0, 0, 0);">当m很小的时候 m的e次方小于n</font>
+当m很小的时候 m的e次方小于n
 
-<font style="color:rgb(0, 0, 0);">所以 c 就等于 m的e次方 此时我们只要将 c 开 e 次方就可以得到 m</font>
+所以 c 就等于 m的e次方 此时我们只要将 c 开 e 次方就可以得到 m
 
-<font style="color:rgb(0, 0, 0);">这里使用 gmpy2 库的iroot开方</font>
+这里使用 gmpy2 库的iroot开方
 
 ```python
 from Crypto.Util.number import *
@@ -1112,7 +1112,7 @@ m = iroot(c, e)
 print(long_to_bytes(m[0]))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">低加密指数攻击</font>
+#### 低加密指数攻击
 由 Ⅰ 消去模 得到 ![image](https://cdn.nlark.com/yuque/__latex/5408886ac0518174dec52ede9a1a5951.svg)= c + k*n
 
 当e很小的时候 我们可以爆破k 得到正确的 ![image](https://cdn.nlark.com/yuque/__latex/5408886ac0518174dec52ede9a1a5951.svg)
@@ -1132,7 +1132,7 @@ for k in range(100000):
 print(long_to_bytes(m))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">Rabin算法攻击</font>
+#### Rabin算法攻击
 一个显著的特征 e为2
 
 ```python
@@ -1166,7 +1166,7 @@ for m in ms:
     print(long_to_bytes(m))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">Wiener攻击</font>
+#### Wiener攻击
 [https://github.com/pablocelayes/rsa-wiener-attack](https://github.com/pablocelayes/rsa-wiener-attack)
 
 ```python
@@ -1213,8 +1213,8 @@ for k, d in a.fractionlist:
         print(flag)
 ```
 
-#### <font style="color:rgb(0, 0, 0);">低加密指数广播攻击</font>
-<font style="color:rgb(51, 51, 51);">当有多组n，c的时候，且e小</font>
+#### 低加密指数广播攻击
+当有多组n，c的时候，且e小
 
 ```python
 import libnum
@@ -1257,8 +1257,8 @@ print(m1)
 print(libnum.n2s(int(m1[0])))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">p-1光滑攻击</font>
-<font style="color:rgb(51, 51, 51);">光滑数：指可以分解为小素数乘积的正整数</font>
+#### p-1光滑攻击
+光滑数：指可以分解为小素数乘积的正整数
 
 ```python
 from Crypto.Util.number import *
@@ -1283,7 +1283,7 @@ m = powmod(c, d, n)
 print(long_to_bytes(m))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">p+1光滑攻击</font>
+#### p+1光滑攻击
 
 ```python
 from Crypto.Util.number import *
@@ -1359,7 +1359,7 @@ m = powmod(c, d, n)
 print(long_to_bytes(m))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">共模攻击</font>
+#### 共模攻击
 题目给出两对e c 公用同一个n
 
 ```python
@@ -1380,7 +1380,7 @@ m = powmod(c1, s1, n) * powmod(c2, s2, n) % n
 print(long_to_bytes(m))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">dp&dq泄露攻击</font>
+#### dp&dq泄露攻击
 
 ```python
 import gmpy2
@@ -1399,7 +1399,7 @@ c=
 decrypt(dp,dq,p,q,c) 
 ```
 
-#### <font style="color:rgb(0, 0, 0);">dp泄露攻击</font>
+#### dp泄露攻击
 
 ```python
 import libnum
@@ -1421,7 +1421,7 @@ flag=libnum.n2s(int(m)).decode()
 print(flag)
 ```
 
-#### <font style="color:rgb(0, 0, 0);">e很大的dp泄露攻击</font>
+#### e很大的dp泄露攻击
 
 ```python
 from Crypto.Util.number import *
@@ -1440,7 +1440,7 @@ m = powmod(c, d, n)
 print(long_to_bytes(m))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">已知明文高位攻击</font>
+#### 已知明文高位攻击
 需要sage
 
 [https://mirrors.aliyun.com/sagemath/win/index.html](https://mirrors.aliyun.com/sagemath/win/index.html)
@@ -1462,7 +1462,7 @@ high_m=
 phase2(high_m, n, c) 
 ```
 
-#### <font style="color:rgb(0, 0, 0);">已知p高位攻击</font>
+#### 已知p高位攻击
 需要sage
 
 ```python
@@ -1483,7 +1483,7 @@ if roots:
     print (n/p)
 ```
 
-#### <font style="color:rgb(0, 0, 0);">AMM算法</font>
+#### AMM算法
 好文章[https://xz.aliyun.com/news/13908](https://xz.aliyun.com/news/13908)
 
 ```python
@@ -1595,8 +1595,8 @@ amq = ALL_Solution(mq, q, rt2, cq, e)
 calc(amp, amq, e, p, q)  # 俩俩CRT
 ```
 
-#### <font style="color:rgb(51, 51, 51);">剪枝</font>
-<font style="color:rgb(51, 51, 51);">a1^b1：</font>
+#### 剪枝
+a1^b1：
 
 ```python
 from Crypto.Util.number import *
@@ -1646,9 +1646,9 @@ tempq = ""
 find(tempp, tempq)
 ```
 
-<font style="color:rgb(51, 51, 51);">p ^ _q：</font>
+p ^ _q：
 
-<font style="color:rgb(51, 51, 51);">p与q的反方向二进制的异或值</font>
+p与q的反方向二进制的异或值
 
 ```python
 from Crypto.Util.number import *
@@ -1710,16 +1710,16 @@ def find(ph,qh,pl,ql):
 find("1","1","1","1")
 ```
 
-## <font style="color:rgb(79, 79, 79);">DSA</font>
+## DSA
 
 ### 原理及加解密过程
 [https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D%E7%AE%97%E6%B3%95](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D%E7%AE%97%E6%B3%95)
 
-## <font style="color:rgb(79, 79, 79);">ECC</font>
+## ECC
 
 ### 原理及加解密过程
 
-## <font style="color:rgb(79, 79, 79);">AES/DES</font>
+## AES/DES
 
 ## ......
 
@@ -1976,13 +1976,13 @@ fi
 
 ```
 
-1, 47);background-color:#FFFFFF;">使用Image Steganography decrypt</font>
+1, 47);background-color:#FFFFFF;">使用Image Steganography decrypt
 
 npiet编程语言：
 
 [https://www.bertnase.de/npiet/npiet-execute.php](https://www.bertnase.de/npiet/npiet-execute.php)
 
-<font style="color:rgb(85, 85, 85);">将信息隐写在图片</font>
+将信息隐写在图片
 
 [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
 
@@ -1994,9 +1994,9 @@ npiet编程语言：
 
 工具站：[https://tools.jb51.net/aideddesign/img_add_info](https://tools.jb51.net/aideddesign/img_add_info)
 
-DeEgger Embedder隐写 <font style="color:rgb(22, 18, 9);">DeEgger Embedder工具</font>
+DeEgger Embedder隐写 DeEgger Embedder工具
 
-<font style="color:rgb(22, 18, 9);">把小说藏进图片 可以参考</font>[https://www.bilibili.com/video/BV1Ai4y1V7rg/?spm_id_from=333.999.0.0&vd_source=31399c09aa0c93655468bde7b13fcc03](https://www.bilibili.com/video/BV1Ai4y1V7rg/?spm_id_from=333.999.0.0&vd_source=31399c09aa0c93655468bde7b13fcc03)
+把小说藏进图片 可以参考[https://www.bilibili.com/video/BV1Ai4y1V7rg/?spm_id_from=333.999.0.0&vd_source=31399c09aa0c93655468bde7b13fcc03](https://www.bilibili.com/video/BV1Ai4y1V7rg/?spm_id_from=333.999.0.0&vd_source=31399c09aa0c93655468bde7b13fcc03)
 
 Arnold猫脸变换：
 
@@ -2240,9 +2240,9 @@ pngcheck file
 ```
 
 #### jpg
-**<font style="color:rgb(22, 18, 9);">OurSecret隐写：</font>**
+**OurSecret隐写：**
 
-**<font style="color:rgb(22, 18, 9);">特征明显，有如下数据</font>**
+**特征明显，有如下数据**
 
 ```shell
 9E 97 BA 2A 00 80 88 C9 A3 70 97 5B A2 E4 99 B8
@@ -2269,11 +2269,11 @@ stegdetect.exe -t jopi -s 10.0 1.jpg
 steghide extract -sf filename -p passwd
 ```
 
-**<font style="color:rgb(44, 63, 81);">JPHS：</font>**
+**JPHS：**
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/46821499/1750231214798-d09b16fc-f243-48c2-aa00-529fd548a942.png)
 
-**<font style="color:rgb(85, 85, 85);">outguess：</font>**
+**outguess：**
 
 ```bash
 outguess -k "pass" -r 1.jpg flag.txt
@@ -2281,9 +2281,9 @@ outguess -k "pass" -r 1.jpg flag.txt
 #flag.txt 保存位置
 ```
 
-**<font style="color:rgb(85, 85, 85);">pixeljihad：</font>**
+**pixeljihad：**
 
-**<font style="color:rgb(85, 85, 85);">在线：</font>**[**https://sekao.net/pixeljihad/**](https://sekao.net/pixeljihad/)
+**在线：**[**https://sekao.net/pixeljihad/**](https://sekao.net/pixeljihad/)
 
 **F5-steganography:**
 
@@ -2309,9 +2309,9 @@ java Extract 1.jpg
 
 bmp文件头去掉
 
-**<font style="color:rgb(36, 41, 47);background-color:#FFFFFF;">silenteye：同上面的jpg</font>**
+**silenteye：同上面的jpg**
 
-**<font style="color:rgb(36, 41, 47);background-color:#FFFFFF;">wbStego4open: 同上</font>**
+**wbStego4open: 同上**
 
 #### gif
 **gif分离：**
@@ -2332,11 +2332,11 @@ identify -format "%s %T \n" flag.gif
 [https://www.123912.com/s/f2HzTd-ZhL03](https://www.123912.com/s/f2HzTd-ZhL03)提取码:LCtD
 
 #### wav
-**<font style="color:rgb(36, 41, 47);">silenteye:</font>**
+**silenteye:**
 
-<font style="color:rgb(36, 41, 47);">可能是silenteye隐写,使用如同jpg，有密匙使用密匙解</font>
+可能是silenteye隐写,使用如同jpg，有密匙使用密匙解
 
-**<font style="color:rgb(36, 41, 47);">deepsound：</font>**
+**deepsound：**
 
 使用deepsound 打开，如果需要密码说明就是 deepsound 隐写，有密钥直接填入密钥解密即可
 
@@ -2359,30 +2359,30 @@ identify -format "%s %T \n" flag.gif
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/46821499/1752725113336-51e85718-bce8-45c3-8c4e-38b9775ca8e3.png)
 
-**<font style="color:rgb(22, 18, 9);">电话音分析(DTMF)：</font>**
+**电话音分析(DTMF)：**
 
-<font style="color:rgb(22, 18, 9);">使用工具：dtmf2num.exe</font>
+使用工具：dtmf2num.exe
 
-<font style="color:rgb(22, 18, 9);">用法：dtmf2num.exe xxx.wav</font>
+用法：dtmf2num.exe xxx.wav
 
-**<font style="color:rgb(22, 18, 9);">Audacity：</font>**
+**Audacity：**
 
-<font style="color:rgb(22, 18, 9);">使用Audacity.exe打开查看是否有字符串等信息</font>
+使用Audacity.exe打开查看是否有字符串等信息
 
-**<font style="color:rgb(22, 18, 9);">steghide：</font>**
+**steghide：**
 
-<font style="color:rgb(22, 18, 9);">也可能是steghide</font>
+也可能是steghide
 
-<font style="color:rgb(22, 18, 9);">用法：</font>
+用法：
 
 ```bash
 steghide extract -sf filename -p passwd
 ```
 
 #### mp3
-**<font style="color:rgb(22, 18, 9);">mp3stego：</font>**
+**mp3stego：**
 
-<font style="color:rgb(22, 18, 9);">工具地址：</font>[https://www.petitcolas.net/steganography/mp3stego/](https://www.petitcolas.net/steganography/mp3stego/)
+工具地址：[https://www.petitcolas.net/steganography/mp3stego/](https://www.petitcolas.net/steganography/mp3stego/)
 
 用法：
 
@@ -2399,9 +2399,9 @@ steghide extract -sf filename -p passwd
 stegpy 1.wav -p
 ```
 
-**<font style="color:rgb(22, 18, 9);">DeEgger Embedder：</font>**
+**DeEgger Embedder：**
 
-<font style="color:rgb(22, 18, 9);">地址：</font>[https://www.softpedia.com/get/Security/Encrypting/DeEgger-Embedder.shtml](https://www.softpedia.com/get/Security/Encrypting/DeEgger-Embedder.shtml)
+地址：[https://www.softpedia.com/get/Security/Encrypting/DeEgger-Embedder.shtml](https://www.softpedia.com/get/Security/Encrypting/DeEgger-Embedder.shtml)
 
 ### 文档类隐写
 
@@ -2410,13 +2410,13 @@ stegpy 1.wav -p
 
 使用binwalk 或者 foremost
 
-**<font style="color:rgb(36, 41, 47);">wbStego4open:</font>**
+**wbStego4open:**
 
-<font style="color:rgb(22, 18, 9);">使用</font><font style="color:rgb(36, 41, 47);">wbStego4open</font><font style="color:rgb(22, 18, 9);">带密钥</font>
+使用wbStego4open带密钥
 
-**<font style="color:rgb(22, 18, 9);">有密码：</font>**
+**有密码：**
 
-<font style="color:rgb(22, 18, 9);">使用pdfcrack爆破密码（Ubuntu: apt install pdfcrack）</font>
+使用pdfcrack爆破密码（Ubuntu: apt install pdfcrack）
 
 ```bash
 pdfcrack -f enc.pdf -w rockyou.txt
@@ -2427,17 +2427,17 @@ pdfcrack -f enc.pdf -w rockyou.txt
 
 使用binwalk分离附加的文件
 
-利用行距隐写将行距的不用转化为01解摩斯密码（如：<font style="color:rgb(22, 18, 9);">ISCC2023-汤姆历险记 </font>）
+利用行距隐写将行距的不用转化为01解摩斯密码（如：ISCC2023-汤姆历险记 ）
 
 #### ppt
 最常见的binwalk分离
 
 #### excel
-<font style="color:rgb(22, 18, 9);">使用记事本打开查找flag</font>
+使用记事本打开查找flag
 
-<font style="color:rgb(22, 18, 9);">查看单元格的不同，将不同的格分别转化为黑白格组成二维码</font>
+查看单元格的不同，将不同的格分别转化为黑白格组成二维码
 
-<font style="color:rgb(22, 18, 9);">binwalk</font>
+binwalk
 
 #### ......
 
@@ -2462,15 +2462,15 @@ pdfcrack -f enc.pdf -w rockyou.txt
 ![](https://cdn.nlark.com/yuque/0/2025/png/46821499/1752726579560-89fc51c7-029d-43cd-acce-214b48528f67.png)
 
 #### ......
-**<font style="color:rgb(22, 18, 9);">snow隐写：</font>**
+**snow隐写：**
 
-<font style="color:rgb(22, 18, 9);">SNOW.EXE -C -p password flag.txt </font>
+SNOW.EXE -C -p password flag.txt 
 
-**<font style="color:rgb(22, 18, 9);">垃圾邮件隐写(spammimic)：</font>**
+**垃圾邮件隐写(spammimic)：**
 
-<font style="color:rgb(22, 18, 9);">使用在线网站解密：</font>
+使用在线网站解密：
 
-[<font style="color:rgb(35, 118, 183);">https://www.spammimic.com/</font>](https://www.spammimic.com/)
+[https://www.spammimic.com/](https://www.spammimic.com/)
 
 **文字隐写：**
 
@@ -2534,18 +2534,18 @@ ZIP文件结构与伪加密原理
 
 要求：
 
-<font style="color:rgb(51, 51, 51);">至少已知明文的12个字节及偏移，其中至少8字节需要连续。</font>
+至少已知明文的12个字节及偏移，其中至少8字节需要连续。
 
-<font style="color:rgb(51, 51, 51);">明文对应的文件加密方式为ZipCrypto Store</font>
+明文对应的文件加密方式为ZipCrypto Store
 
-**<font style="color:rgb(51, 51, 51);">bkcrack:</font>**
+**bkcrack:**
 
 [https://github.com/kimci86/bkcrack](https://github.com/kimci86/bkcrack)
 
 ### crc爆破
-<font style="color:rgb(22, 18, 9);">压缩包中文件比较小只有几字节</font>
+压缩包中文件比较小只有几字节
 
-<font style="color:rgb(22, 18, 9);">工具：</font>
+工具：
 
 [https://github.com/AabyssZG/CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools)
 
@@ -2562,7 +2562,7 @@ ZIP文件结构与伪加密原理
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/46821499/1753933177946-d2a90513-cc04-4aa2-be1f-53606026646e.png)
 
-<font style="color:rgb(32, 33, 34);">对极大整数做</font>[<font style="color:rgb(51, 102, 204);">因数分解</font>](https://zh.wikipedia.org/wiki/%E5%9B%A0%E6%95%B0%E5%88%86%E8%A7%A3)<font style="color:rgb(32, 33, 34);">的难度决定了 RSA 算法的可靠性。换言之，对一极大整数做因数分解愈困难，RSA 算法愈可靠。假如有人找到一种快速因数分解的算法的话，那么用 RSA 加密的信息的可靠性就会极度下降。但找到这样的算法的可能性是非常小的。今天只有短的 RSA 钥匙才可能被强力方式破解。到2020年为止，世界上还没有任何可靠的攻击RSA算法的方式。只要其钥匙的长度足够长，用RSA加密的信息实际上是不能被破解的。</font>
+对极大整数做[因数分解](https://zh.wikipedia.org/wiki/%E5%9B%A0%E6%95%B0%E5%88%86%E8%A7%A3)的难度决定了 RSA 算法的可靠性。换言之，对一极大整数做因数分解愈困难，RSA 算法愈可靠。假如有人找到一种快速因数分解的算法的话，那么用 RSA 加密的信息的可靠性就会极度下降。但找到这样的算法的可能性是非常小的。今天只有短的 RSA 钥匙才可能被强力方式破解。到2020年为止，世界上还没有任何可靠的攻击RSA算法的方式。只要其钥匙的长度足够长，用RSA加密的信息实际上是不能被破解的。
 
 维基百科：
 
@@ -2644,16 +2644,16 @@ gmpy2
 
 ### 常见攻击方式
 
-#### <font style="color:rgb(0, 0, 0);">小明文攻击</font>
+#### 小明文攻击
 当题目中N特别大的时候可以尝试
 
-我们已知 Ⅰ:  C  <font style="color:rgb(0, 0, 0);">≡</font>![image](https://cdn.nlark.com/yuque/__latex/cc221ed71b2d6a5f6487c0d93be71c3d.svg)<font style="color:rgb(0, 0, 0);">(mod N)</font>
+我们已知 Ⅰ:  C  ≡![image](https://cdn.nlark.com/yuque/__latex/cc221ed71b2d6a5f6487c0d93be71c3d.svg)(mod N)
 
-<font style="color:rgb(0, 0, 0);">当m很小的时候 m的e次方小于n</font>
+当m很小的时候 m的e次方小于n
 
-<font style="color:rgb(0, 0, 0);">所以 c 就等于 m的e次方 此时我们只要将 c 开 e 次方就可以得到 m</font>
+所以 c 就等于 m的e次方 此时我们只要将 c 开 e 次方就可以得到 m
 
-<font style="color:rgb(0, 0, 0);">这里使用 gmpy2 库的iroot开方</font>
+这里使用 gmpy2 库的iroot开方
 
 ```python
 from Crypto.Util.number import *
@@ -2667,7 +2667,7 @@ m = iroot(c, e)
 print(long_to_bytes(m[0]))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">低加密指数攻击</font>
+#### 低加密指数攻击
 由 Ⅰ 消去模 得到 ![image](https://cdn.nlark.com/yuque/__latex/5408886ac0518174dec52ede9a1a5951.svg)= c + k*n
 
 当e很小的时候 我们可以爆破k 得到正确的 ![image](https://cdn.nlark.com/yuque/__latex/5408886ac0518174dec52ede9a1a5951.svg)
@@ -2687,7 +2687,7 @@ for k in range(100000):
 print(long_to_bytes(m))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">Rabin算法攻击</font>
+#### Rabin算法攻击
 一个显著的特征 e为2
 
 ```python
@@ -2721,7 +2721,7 @@ for m in ms:
     print(long_to_bytes(m))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">Wiener攻击</font>
+#### Wiener攻击
 [https://github.com/pablocelayes/rsa-wiener-attack](https://github.com/pablocelayes/rsa-wiener-attack)
 
 ```python
@@ -2768,8 +2768,8 @@ for k, d in a.fractionlist:
         print(flag)
 ```
 
-#### <font style="color:rgb(0, 0, 0);">低加密指数广播攻击</font>
-<font style="color:rgb(51, 51, 51);">当有多组n，c的时候，且e小</font>
+#### 低加密指数广播攻击
+当有多组n，c的时候，且e小
 
 ```python
 import libnum
@@ -2812,8 +2812,8 @@ print(m1)
 print(libnum.n2s(int(m1[0])))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">p-1光滑攻击</font>
-<font style="color:rgb(51, 51, 51);">光滑数：指可以分解为小素数乘积的正整数</font>
+#### p-1光滑攻击
+光滑数：指可以分解为小素数乘积的正整数
 
 ```python
 from Crypto.Util.number import *
@@ -2838,7 +2838,7 @@ m = powmod(c, d, n)
 print(long_to_bytes(m))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">p+1光滑攻击</font>
+#### p+1光滑攻击
 
 ```python
 from Crypto.Util.number import *
@@ -2914,7 +2914,7 @@ m = powmod(c, d, n)
 print(long_to_bytes(m))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">共模攻击</font>
+#### 共模攻击
 题目给出两对e c 公用同一个n
 
 ```python
@@ -2935,7 +2935,7 @@ m = powmod(c1, s1, n) * powmod(c2, s2, n) % n
 print(long_to_bytes(m))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">dp&dq泄露攻击</font>
+#### dp&dq泄露攻击
 
 ```python
 import gmpy2
@@ -2954,7 +2954,7 @@ c=
 decrypt(dp,dq,p,q,c) 
 ```
 
-#### <font style="color:rgb(0, 0, 0);">dp泄露攻击</font>
+#### dp泄露攻击
 
 ```python
 import libnum
@@ -2976,7 +2976,7 @@ flag=libnum.n2s(int(m)).decode()
 print(flag)
 ```
 
-#### <font style="color:rgb(0, 0, 0);">e很大的dp泄露攻击</font>
+#### e很大的dp泄露攻击
 
 ```python
 from Crypto.Util.number import *
@@ -2995,7 +2995,7 @@ m = powmod(c, d, n)
 print(long_to_bytes(m))
 ```
 
-#### <font style="color:rgb(0, 0, 0);">已知明文高位攻击</font>
+#### 已知明文高位攻击
 需要sage
 
 [https://mirrors.aliyun.com/sagemath/win/index.html](https://mirrors.aliyun.com/sagemath/win/index.html)
@@ -3017,7 +3017,7 @@ high_m=
 phase2(high_m, n, c) 
 ```
 
-#### <font style="color:rgb(0, 0, 0);">已知p高位攻击</font>
+#### 已知p高位攻击
 需要sage
 
 ```python
@@ -3038,7 +3038,7 @@ if roots:
     print (n/p)
 ```
 
-#### <font style="color:rgb(0, 0, 0);">AMM算法</font>
+#### AMM算法
 好文章[https://xz.aliyun.com/news/13908](https://xz.aliyun.com/news/13908)
 
 ```python
@@ -3150,8 +3150,8 @@ amq = ALL_Solution(mq, q, rt2, cq, e)
 calc(amp, amq, e, p, q)  # 俩俩CRT
 ```
 
-#### <font style="color:rgb(51, 51, 51);">剪枝</font>
-<font style="color:rgb(51, 51, 51);">a1^b1：</font>
+#### 剪枝
+a1^b1：
 
 ```python
 from Crypto.Util.number import *
@@ -3201,9 +3201,9 @@ tempq = ""
 find(tempp, tempq)
 ```
 
-<font style="color:rgb(51, 51, 51);">p ^ _q：</font>
+p ^ _q：
 
-<font style="color:rgb(51, 51, 51);">p与q的反方向二进制的异或值</font>
+p与q的反方向二进制的异或值
 
 ```python
 from Crypto.Util.number import *
@@ -3265,16 +3265,16 @@ def find(ph,qh,pl,ql):
 find("1","1","1","1")
 ```
 
-## <font style="color:rgb(79, 79, 79);">DSA</font>
+## DSA
 
 ### 原理及加解密过程
 [https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D%E7%AE%97%E6%B3%95](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D%E7%AE%97%E6%B3%95)
 
-## <font style="color:rgb(79, 79, 79);">ECC</font>
+## ECC
 
 ### 原理及加解密过程
 
-## <font style="color:rgb(79, 79, 79);">AES/DES</font>
+## AES/DES
 
 ## ......
 
